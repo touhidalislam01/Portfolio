@@ -13,16 +13,17 @@
 
  .click{  
     text-decoration: none;
-    color: wheat;
+    color: gold;
     font-size: 20px;
     padding-right: 20px;
+    
     
 }
 
 .Portfolio{
     font-size: 40px;
     padding-left: 200px;
-    color: wheat;
+    color: gold;
 }
 
 .paragraph-1{
@@ -37,7 +38,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.5));
     color: wheat;
     font-size: 20px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     word-spacing: 5px;
 }
 
@@ -64,3 +65,26 @@
     padding-left: 60px;
     padding-right: 60px;
 }
+.container{
+    margin: 30px;
+    text-align: center;
+    height: 300px;
+}
+.zoom-img{
+    width: 400px;
+    border-radius: 50%;
+    /* filter: grayscale(100%); */
+    transition: 0.3s ease;
+}
+.zoom-img:hover{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+
+.fotter{
+    text-align: center;
+    color: gold;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.5));
+    padding: 15px;
+}
+
